@@ -1,0 +1,66 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators menu">
+      <li data-target="#myCarousel" data-slide-to="0" (click)="cambiar(1)" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1" (click)="cambiar(2)" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2" (click)="cambiar(3)" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="first-slide" src={{cambio}} alt="First slide" width="1370px" height="400px">
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>PELICULAS Y SERIES EN VIVO</h1>
+            <p>Preparate para sentir el las mejores eperiencias</p>
+           
+            <p><a class="btn btn-lg btn-danger btn-outline-light" href="#" role="button">Reproducir</a></p>
+          </div>
+        </div>
+      </div>
+    <a class="carousel-control-prev" (click)="menor()" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" (click)="mayor()" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="container-fluid" style="background: black;padding: 10px;">
+  <div>
+    <div class="card flex-md-row mb-4 box-shadow h-md-250 border " style="background: black;padding: 10px;">
+      <div class="card-body d-flex flex-column align-items-start">
+        <strong class="textoRed d-inline-block mb-2 " style="color: red;">Celulares</strong>
+        <h1 class="mb-0">
+          <a class="text-light" href="#">Disfruta De Tus Series Favoritas En Todos Tus Dispositivos Moviles.</a>
+        </h1>
+       <h4 class="m-5">
+        <p class="card-text text-light mb-auto">Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</p>
+       </h4> 
+      </div>
+      <img class="card-img-right flex-auto d-none d-md-block" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" width="500px" alt="Card image cap">
+    </div>
+  </div>
+  <div class="card flex-md-row mb-4 box-shadow h-md-250 border " style="background: black;padding: 10px;">
+    <div class="col-md-6 order-md-2">
+      <div class="card-body d-flex flex-column align-items-start">
+        <strong class="textoRed d-inline-block mb-2 " style="color: red;">Contenido</strong>
+        <h1 class="mb-0 pt-5">
+          <a class="text-light" href="#">Tus Series Y Peliculas Favoritas</a>
+        </h1>
+       <h4 class="m-5">
+         
+        <p class="card-text text-light mb-auto">Tenemos de todo tipo de contenido. <br>  <br>
+            Desde los programas de cocina de tu esposa, hasta las caricaturas perfectas para tus hijos.
+        </p>
+       </h4> 
+      </div>
+    </div>
+    <div class="col-md-6 order-md-1">
+      <img class="featurette-image img-fluid mx-auto"  alt="500x500" src="https://assets.nflxext.com/ffe/siteui/vlv3/69b9cce3-4fdc-4ed0-8825-9b24c97c3993/ae1d77e8-7cc6-440c-8291-357af31defd2/CO-es-20201005-popsignuptwoweeks-perspective_alpha_website_large.jpg" data-holder-rendered="true" style="width: 800px; height: 500px;">
+    </div>
+  </div>
+</div>
+
+

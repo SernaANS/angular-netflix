@@ -67,7 +67,10 @@
           "configurations": {
             "production": {
               "browserTarget": "Netflix:build:production"
-            }
+            },
+            "development": {
+            "browserTarget": "Netflix:build:development"
+          }
           }
         },
         "extract-i18n": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Netflix"
+    }
+  },
+  "defaultProject": "Netflix",
+  "cli": {
+    "analytics": "0a8e4f52-0410-4ad8-8d7f-6b37130d4af9"
+  }
 }
